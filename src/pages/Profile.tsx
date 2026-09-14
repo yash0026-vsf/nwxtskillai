@@ -37,7 +37,7 @@ export function Profile() {
         {/* Profile Header */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 border-b border-slate-100">
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 rounded-3xl bg-gradient-to-tr from-brand-600 to-indigo-600 text-white flex items-center justify-center text-xl font-extrabold shadow-glow-indigo">
+            <div className="w-16 h-16 rounded-3xl bg-gradient-to-tr from-emerald-600 to-teal-600 text-white flex items-center justify-center text-xl font-extrabold shadow-md shadow-emerald-500/20">
               {profile.avatarInitials}
             </div>
             <div>
